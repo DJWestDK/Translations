@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+    <!-- ========== HUD OVERLAY ========== -->
+    <text name="cs_hud_title"         text="AFGRØDEFUGTIGHED"/>
+    <text name="cs_hud_healthy"       text="Sund"/>
+    <text name="cs_hud_warning"       text="Tørkebelastning"/>
+    <text name="cs_hud_critical"      text="KRITISK — Irriger Nu!"/>
+    <text name="cs_hud_no_crop"       text="Ingen afgrøde"/>
+    <text name="cs_hud_forecast"      text="5-dages Forecast"/>
+    <text name="cs_hud_first_run"      text="Seasonal Crop Stress v1.0.5.0 indlæst. Tryk Shift+M for at åbne fugtigheds-HUD'en. Ny på modet? Åbn Hjælpemenuen (ESC → Hjælp) og find Seasonal Crop Stress for at lære, hvordan alt fungerer."/>
+    <text name="cs_hud_click_forecast" text="Klik på en række for 5-dages forecast"/>
+    <text name="cs_hud_vehicle_disabled" text="Overlay deaktiveret i køretøj"/>
+
+    <!-- ========== FIELD STATUS ========== -->
+    <text name="cs_field_moisture"        text="Fugtighed"/>
+    <text name="cs_field_soil_type"       text="Jordtype"/>
+    <text name="cs_field_stress"          text="Akkumuleret Stress"/>
+    <text name="cs_field_yield_impact"    text="Est. Udbyttepåvirkning"/>
+    <text name="cs_field_critical_window" text="Kritisk Vindue: NU"/>
+    <text name="cs_field_nearest_water"   text="Nærmeste Vand"/>
+
+    <!-- ========== SOIL TYPES ========== -->
+    <text name="cs_soil_sandy"  text="Sandig"/>
+    <text name="cs_soil_loamy"  text="Lermuld"/>
+    <text name="cs_soil_clay"   text="Lerskoning"/>
+
+    <!-- ========== ALERTS ========== -->
+    <text name="cs_alert_info"     text="Mark %d: %s fugtighed falder — overvåg forholdene."/>
+    <text name="cs_alert_warning"  text="Mark %d: %s fugtighed lav — vanding anbefales."/>
+    <text name="cs_alert_critical" text="Mark %d: %s ved tørkebelastningsgrænse — vand NU!"/>
+
+    <!-- ========== IRRIGATION ========== -->
+    <text name="cs_irr_title"          text="Irrigationssystem — %s"/>
+    <text name="cs_irr_water_source"   text="Vandkilde"/>
+    <text name="cs_irr_connected"      text="Forbundet"/>
+    <text name="cs_irr_disconnected"   text="Afbrudt"/>
+    <text name="cs_irr_schedule"       text="Tidsplan"/>
+    <text name="cs_irr_flow_rate"      text="Strømningshastighed"/>
+    <text name="cs_irr_efficiency"     text="Effektivitet"/>
+    <text name="cs_irr_cost"           text="Est. Omkostning"/>
+    <text name="cs_irr_wear"           text="Slitageniveau"/>
+    <text name="cs_irr_covered_fields" text="Dækkede Marker"/>
+    <text name="cs_irr_irrigate_now"   text="Vand Nu"/>
+    <text name="cs_irr_save_schedule"  text="Gem Tidsplan"/>
+    <text name="cs_irr_pivot"          text="Center Pivot"/>
+    <text name="cs_irr_drip"           text="Drypslange"/>
+    <text name="cs_irr_pump"           text="Vandpumpe"/>
+    <text name="cs_irr_start_time"     text="Starttid"/>
+    <text name="cs_irr_end_time"       text="Sluttid"/>
+    <text name="cs_irr_performance"    text="Præstation"/>
+    <text name="cs_irr_started"        text="Vanding påbegyndt."/>
+    <text name="cs_irr_open_schedule"  text="Åbn Vandingtidsplan"/>
+    <text name="cs_schedule_saved"     text="Tidsplan gemt."/>
+
+    <!-- ========== DAY LABELS ========== -->
+    <text name="cs_day_mon" text="M"/>
+    <text name="cs_day_tue" text="T"/>
+    <text name="cs_day_wed" text="O"/>
+    <text name="cs_day_thu" text="T"/>
+    <text name="cs_day_fri" text="F"/>
+    <text name="cs_day_sat" text="L"/>
+    <text name="cs_day_sun" text="S"/>
+
+    <!-- ========== CONSULTANT ========== -->
+    <text name="cs_consultant_name"            text="Alex Chen, Agronom"/>
+    <text name="cs_consultant_subtitle"        text="Markstatus &amp; Anbefalinger"/>
+    <text name="cs_consultant_relationship"    text="Forhold til Alex:"/>
+    <text name="cs_consultant_field_status"    text="Markrisikooversigt (Top 5)"/>
+    <text name="cs_consultant_recommendation"  text="Anbefalinger"/>
+    <text name="cs_consultant_open_irrigation" text="Åbn Vandingleder"/>
+    <text name="cs_consultant_no_data"         text="Ingen markdata tilgængelig."/>
+
+    <!-- ========== NPC FAVOR QUESTS ========== -->
+    <text name="cs_favor_soil_sample"     text="Tag en jordprøve fra Mark %d"/>
+    <text name="cs_favor_irr_check"       text="Inspicér irrigationssystemet ved Mark %d"/>
+    <text name="cs_favor_emergency_water" text="Vand Mark %d før solnedgang!"/>
+    <text name="cs_favor_seasonal_plan"   text="Gennemgå den sæsonbestemte vandingtidsplan"/>
+
+    <!-- ========== PLACEABLES ========== -->
+    <text name="cs_pivot_name"     text="Center Pivot Irrigator"/>
+    <text name="cs_pump_name"      text="Vandpumpe"/>
+    <text name="cs_drip_name"      text="Drypirrigationslange"/>
+    <text name="cs_pivot_function" text="Stor-radius center pivot vanding. Dækker cirkulære markarealer. Kræver en vandpumpe."/>
+    <text name="cs_pump_function"  text="Driver center pivot og drypirrigationssystemer. Placer tæt ved en vandkilde."/>
+    <text name="cs_drip_function"  text="Præcis lavstrøms vanding langs markrekkerne. Kræver en vandpumpe."/>
+
+    <!-- ========== IRRIGATION PERFORMANCE VALUES (dynamic, format strings) ========== -->
+    <text name="cs_irr_flow_rate_value"   text="Strømningshastighed: %.3f/time"/>
+    <text name="cs_irr_efficiency_value"  text="Effektivitet: %d%%"/>
+    <text name="cs_irr_cost_value"        text="Est. Omkostning: $%d/time"/>
+    <text name="cs_irr_wear_value"        text="Slitageniveau: %d%%"/>
+    <text name="cs_irr_already_active"    text="Irrigationssystem kører allerede."/>
+    <text name="cs_irr_no_covered_fields" text="Ingen marker dækket af dette system."/>
+
+    <!-- ========== CONSULTANT RECOMMENDATIONS (dynamic, format strings) ========== -->
+    <text name="cs_rec_urgent"          text="HASTER: Mark %d ved %.0f%% fugtighed — vand straks!"/>
+    <text name="cs_rec_warning"         text="Mark %d ved %.0f%% fugtighed — vanding anbefales inden 24t."/>
+    <text name="cs_rec_ok"              text="Alle marker inden for acceptabel fugtniveauer."/>
+    <text name="cs_rec_forecast"        text="Forecast: ~ D+1 %.0f%%  D+2 %.0f%%  D+3 %.0f%%"/>
+    <text name="cs_rec_systems_running" text="%d irrigationssystem(er) kører i øjeblikket."/>
+    <text name="cs_rec_no_systems"      text="Ingen irrigationssystemer er i øjeblikket aktive."/>
+    <text name="cs_rec_all_healthy"     text="Alle marker ser raske ud."/>
+
+    <!-- ========== SHARED ========== -->
+    <text name="cs_close"                 text="Luk"/>
+    <text name="cs_no_irrigation_systems" text="Ingen irrigationssystemer placeret endnu"/>
+
+    <!-- ========== INPUT ACTION DESCRIPTIONS ========== -->
+    <text name="input_CS_TOGGLE_HUD"      text="Skift Fugtigheds-HUD"/>
+    <text name="input_CS_OPEN_IRRIGATION" text="Åbn Vandingleder"/>
+    <text name="input_CS_OPEN_CONSULTANT" text="Åbn Afgrødekonsulent"/>
+    <text name="input_CS_EDIT_HUD"        text="Rediger/Flyt Fugtigheds-HUD"/>
+
+    <!-- ========== PRECISION FARMING DLC ========== -->
+    <text name="cs_pf_moisture_overlay"      text="Jordfugtighed"/>
+    <text name="cs_pf_moisture_overlay_desc" text="Viser aktuelle jordfugtigniveauer på tværs af dine marker. Rødt angiver tør jord, grønt angiver optimal fugtighed, og blåt angiver mættet jord."/>
+
+    <!-- ========== SETTINGS ========== -->
+    <text name="cs_settings_section"           text="Sæsonbetinget Afgrødestress"/>
+    <text name="cs_settings_enabled_short"     text="Aktivér Mod"/>
+    <text name="cs_settings_enabled_long"      text="Til/fra hele Sæsonbetinget Afgrødestress-systemet"/>
+    <text name="cs_settings_difficulty_short"  text="Sværhedsgrad"/>
+    <text name="cs_settings_difficulty_long"   text="Justér stress-akkumulation og fordampningsrater"/>
+    <text name="cs_settings_diff_easy"         text="Let"/>
+    <text name="cs_settings_diff_normal"       text="Normal"/>
+    <text name="cs_settings_diff_hard"         text="Svær"/>
+    <text name="cs_settings_hud_short"         text="HUD Synlig"/>
+    <text name="cs_settings_hud_long"          text="Vis eller skjul fugtighedsoverlay'et på marklisten"/>
+    <text name="cs_settings_evap_short"        text="Fordampning"/>
+    <text name="cs_settings_evap_long"         text="Basishastighed for fugtighedstab fra jord"/>
+    <text name="cs_settings_evap_slow"         text="Langsom"/>
+    <text name="cs_settings_evap_normal"       text="Normal"/>
+    <text name="cs_settings_evap_fast"         text="Hurtig"/>
+    <text name="cs_settings_yield_loss_short"  text="Maks Udbyttetab"/>
+    <text name="cs_settings_yield_loss_long"   text="Maksimal procentdel af høsten, der kan gås tabt til tørkebelastning"/>
+    <text name="cs_settings_threshold_short"   text="Kritisk Tærskel"/>
+    <text name="cs_settings_threshold_long"    text="Fugtniveau, under hvilket stress akkumuleres"/>
+    <text name="cs_settings_irr_costs_short"   text="Vandings-omkostninger"/>
+    <text name="cs_settings_irr_costs_long"    text="Aktivér eller deaktivér finansielle omkostninger for køring af irrigationssystemer"/>
+    <text name="cs_settings_alerts_short"      text="Varsler Aktiveret"/>
+    <text name="cs_settings_alerts_long"       text="Vis advarselsnotifikationer, når marker behøver vand"/>
+    <text name="cs_settings_cooldown_short"    text="Varseltid"/>
+    <text name="cs_settings_cooldown_long"     text="Minimalt antal timer mellan varsler for samme mark"/>
+    <text name="cs_settings_debug_short"       text="Debug-tilstand"/>
+    <text name="cs_settings_debug_long"        text="Aktivér detaljeret logning til fejlfinding"/>
+
+    <!-- ========== HELP LINES ========== -->
+    <!-- Legacy key kept for safety -->
+    <text name="helpLine_cs_category"          text="Sæsonbetinget Afgrødestress"/>
+    <!-- Category titles -->
+    <text name="helpLine_cs_cat_overview"      text="Generelt"/>
+    <text name="helpLine_cs_cat_settings"      text="Indstillinger"/>
+    <text name="helpLine_cs_cat_tips"          text="Tips &amp; Tricks"/>
+    <text name="helpLine_cs_cat_info"          text="Mod-information"/>
+
+    <!-- Overview: Page 1 -->
+    <text name="helpLine_cs_p1_title"          text="Overblik"/>
+    <text name="helpLine_cs_p1_intro_title"    text="Hvad denne mod tilføjer"/>
+    <text name="helpLine_cs_p1_intro_text"     text="Sæsonbetinget Afgrødestress tilføjer jordfugtighedssimulation til hver mark. Afgøder behøver vand under vigtige voksepidoer. Hvis de ikke får det, bliver dit høst mindre. Irrigationssystemer lader dig tage kontrol over dit marks vandforsyning."/>
+    <text name="helpLine_cs_p1_start_title"    text="Kom i gang"/>
+    <text name="helpLine_cs_p1_start_text"     text="Tryk Shift+M for at åbne fugtigheds-HUD'en og se alle dine marker på ét blik. Marker vist i rødt behøver vand hastigt. Grønne marker er i god form. Tryk Shift+C for at åbne Afgrødekonsulenten for detaljeret råd og risikovurderinger."/>
+
+    <!-- Overview: Page 2 -->
+    <text name="helpLine_cs_p2_title"          text="Jordfugtighed"/>
+    <text name="helpLine_cs_p2_how_title"      text="Hvordan Fugtighed fungerer"/>
+    <text name="helpLine_cs_p2_how_text"       text="Regn fylder din jord og varme dræner den. Hver mark sporer sit eget fugtniveau fra 0% (knastør) til 100% (mættet). Hastigheden af tørring afhænger af vejret, årstiden og din jordtype."/>
+    <text name="helpLine_cs_p2_soil_title"     text="Jordtyper"/>
+    <text name="helpLine_cs_p2_soil_text"      text="Sandig jord dræner hurtigt og behøver hyppig vanding. Lerjord holder vand længere, men kan blive for våd. Lermuld er derimellem og lettest at håndtere. Din marks jordtype er vist i HUD'en og afgrødekonsulenten."/>
+
+    <!-- Overview: Page 3 -->
+    <text name="helpLine_cs_p3_title"          text="Afgrødestress &amp; Udbyt"/>
+    <text name="helpLine_cs_p3_window_title"   text="Kritiske Vækstperioder"/>
+    <text name="helpLine_cs_p3_window_text"    text="Hver afgrøde har en periode under sin vækstcyklus, hvor den behøver vand mest. Hvede er mest sårbar om forår, majs lider under sommerheatwaves, raps er følsom om efterår. Lav fugtighed i denne periode bygger stress op på marken."/>
+    <text name="helpLine_cs_p3_yield_title"    text="Udbytteformindskelse ved høst"/>
+    <text name="helpLine_cs_p3_yield_text"     text="Akkumuleret stress reducerer dit høst. En små mængde stress betyder lille udbyttetab. Svær tørke kan skære dit høst med op til 60%. Afgrødekonsulenten viser din aktuelle udbytterisiko pr. mark, så du kan prioritere vanding, hvor det betyder mest."/>
+
+    <!-- Overview: Page 4 (Irrigation) -->
+    <text name="helpLine_cs_p5_title"          text="Vanding"/>
+    <text name="helpLine_cs_p5_types_title"    text="Vandings-typer"/>
+    <text name="helpLine_cs_p5_types_text"     text="Tre vandings-typer er tilgængelige i build-menuen. Center Pivot dækker et stort cirkulært område. Drypslange giver præcis dækning langs en markrekke. Vandpumpe forstørker dine irrigationssystemer og skal placeres tæt ved en vandkilde først."/>
+    <text name="helpLine_cs_p5_schedule_title" text="Tidsplan og Kørsel"/>
+    <text name="helpLine_cs_p5_schedule_text"  text="Vælg et irrigationssystem og tryk Shift+I for at åbne dets tidsplan. Vælg, hvilke ugedage der skal vandingen finder sted, og sæt daglig start- og sluttid. Du kan også trykke Vand Nu i dialogen for at vande de dækkede marker øjeblikkeligt uden at vente på tidsplanen."/>
+
+    <!-- Overview: Page 5 (Crop Consultant) -->
+    <text name="helpLine_cs_p6_title"          text="Afgrødekonsulent"/>
+    <text name="helpLine_cs_p6_what_title"     text="Hvad konsulenten viser"/>
+    <text name="helpLine_cs_p6_what_text"      text="Tryk Shift+C for at åbne afgrødekonsulenten. Den viser dine top 5 højeste-risiko-marker rangeret efter fugtighed og stress-niveau, sammen med en folkelig anbefaling for de næste 24 timer og en 3-dages fugtighedsforecast."/>
+    <text name="helpLine_cs_p6_act_title"      text="Handling rådene"/>
+    <text name="helpLine_cs_p6_act_text"       text="Marker markeret KRITISK behøver vanding i dag for at forhindre høsttab. Marker markeret ADVARSEL skal vandiges inden en eller to dage. Brug knappen Åbn Vandingleder inde i konsulenten for hurtigt at planlægge vand til den værste mark."/>
+    <text name="helpLine_cs_p6_npc_title"      text="Valgfri Integreringer"/>
+    <text name="helpLine_cs_p6_npc_text"       text="Flere valgfri mods udvider systemet. FS25_NPCFavor: Alex Chen vises som en Agronom NPC — fuldend favor for at låse op tidlige tørkeadvarsler og specialist-vandingsråd. FS25_SoilFertilizer: Jord-pH og organisk stof ændrer fordampning pr. mark. FS25_UsedPlus: Vandingskørselomkostninger og udstyrsslejtage spores. CoursePlay: Aktive køretøjsantal vises i stress-varsler. AutoDrive: Vandbestemmelseshints vises i kritiske varsler. Precision Farming DLC: Jordfugtighed vises i PF-kort-overlayet."/>
+
+    <!-- Settings: Page 1 — General Settings -->
+    <text name="helpLine_cs_s1_title"          text="Generelle Indstillinger"/>
+    <text name="helpLine_cs_s1_gen_title"      text="Aktivering af Moden"/>
+    <text name="helpLine_cs_s1_gen_text"       text="Åbn spillets indstillinger (ESC → Indstillinger → Sæsonbetinget Afgrødestress). Brug Aktivering af Mod til at skifte hele systemet til/fra uden at fjerne dine irrigationsstrukturer. Sværhedsgraden kontrollerer, hvor hurtigt afgøder akkumulerer tørkeestress — Let er eftergivende, Svær pusher dig til at vande proaktivt."/>
+    <text name="helpLine_cs_s1_evap_title"     text="Fordampningshastighed"/>
+    <text name="helpLine_cs_s1_evap_text"      text="Fordampning kontrollerer, hvor hurtigt jord tørrer ud mellem regnbegivenheder. Langsom betyder marker holder fugtighed godt og regn går langt. Hurtig betyder marker kan tørre ud inden for et spil-dag under varmt vejr — aktiv irrigationsstyring bliver vigtig."/>
+
+    <!-- Settings: Page 2 — Advanced Settings -->
+    <text name="helpLine_cs_s2_title"          text="Avancerede Indstillinger"/>
+    <text name="helpLine_cs_s2_yield_title"    text="Udbyttetab &amp; Stressgrænse"/>
+    <text name="helpLine_cs_s2_yield_text"     text="Max Udbyttetab sætter grænsen for hvor mange procent af høsten, der kan reduceres af tørkeestress. Ved standarden 60%, giver en fuldt-stresset mark stadig 40% af normalt. Kritisk Tærskel er fugthedsniveauet, under hvilket stress begynder at akkumuleres — hév det for at gøre afgøder mere tørkeudsat, sænk det for mere tolerance."/>
+    <text name="helpLine_cs_s2_alerts_title"   text="Vandingsomkostninger &amp; Varsler"/>
+    <text name="helpLine_cs_s2_alerts_text"    text="Vandingsomkostninger opkræver et time-gebyr for kørsel af irrigationssystemer, hvilket tilføjer et finansielt styringshold. Deaktivér dette for en enklere oplevelse. Varsler Aktiveret viser advarselsnotifikationer, når marker behøver vand. Varseltid sætter minimale spil-timer, før samme mark udløser endnu et varsel, hvilket forhindrer notifikationsspam."/>
+
+    <!-- Tips & Tricks: Page 1 (HUD & Controls) -->
+    <text name="helpLine_cs_p4_title"          text="HUD &amp; Kontroller"/>
+    <text name="helpLine_cs_p4_hud_title"      text="Fugtigheds-HUD Overlay"/>
+    <text name="helpLine_cs_p4_hud_text"       text="Tryk Shift+M for at skifte fugtigheds-HUD'en til/fra. Det viser hver mark med sit fugtniveau, afgrødetype og stress-status. En 5-dages forecast viser, om fugtighed stiger eller falder, så du kan planlægge forud. Du kan også trække panelet til enhver position på skærmen ved at klikke og slippe."/>
+    <text name="helpLine_cs_p4_reading_title"  text="Læsning af en Markrekke"/>
+    <text name="helpLine_cs_p4_reading_text"   text="Hver række viser: marknummer (M1), afgrødenom (Hvede), nærværende voksestadium (Stadium 3), en farvekoderet fugtighedsbjælke og fugthedsprocent. Hvis rækken slutter med et udråbstegn (!), bygger denne mark allerede tørkeestress op, og udbyttetab er begyndt — vand den nu. Kun afgøder, der kan lide tørkeestress, vises i listen."/>
+    <text name="helpLine_cs_p4_status_title"   text="Status Farver"/>
+    <text name="helpLine_cs_p4_status_text"    text="Grønt betyder dit mark er sundt og ingen handling er nødvendig. Gult er en advarsel: fugtighed falder og vanding er tilrådelig snart. Rødt er kritisk: afgrøden er under tørkeestress og udbyttetab bygger sig allerede op — vand straks."/>
+    <text name="helpLine_cs_p4_keys_title"     text="Tastaturgenveje"/>
+    <text name="helpLine_cs_p4_keys_text"      text="Shift+M skifter fugtigheds-HUD'en til/fra. Shift+I åbner Vandinglederen for et valgt system. Shift+C åbner Afgrødekonsulenten med markrisikooversigt og personaliserede anbefalinger."/>
+
+    <!-- Tips & Tricks: Page 2 — Farming Strategies -->
+    <text name="helpLine_cs_t2_title"          text="Landbrugsstrategier"/>
+    <text name="helpLine_cs_t2_sandy_title"    text="Prioriter Sandjorde"/>
+    <text name="helpLine_cs_t2_sandy_text"     text="Sandig jord tørrer ud dobbelt så hurtigt som lermuld. Hvis du dyrker en blanding af jordtyper, placer vanding på sandjorde først. En center pivot dækkende et stort sandigt område er ofte en bedre investering end en drypslange på et lille lermark, som holder fugtighed naturligt."/>
+    <text name="helpLine_cs_t2_forecast_title" text="Brug Forecasten"/>
+    <text name="helpLine_cs_t2_forecast_text"  text="5-dages forecasten i HUD'en viser, om fugtighed stiger eller falder. Hvis der er regn forventet inden for en eller to dage, og dine marker kun er i advarselsrækkevidden, vent på regnen — du sparer penge og slitage på dit udstyr. Reagerer tidligt når forecasten viser flere tørre dage foran under en kritisk voksseperiode."/>
+
+    <!-- Mod Information: Page 1 — About -->
+    <text name="helpLine_cs_i1_title"           text="Om Denne Mod"/>
+    <text name="helpLine_cs_i1_about_title"     text="Sæsonbetinget Afgrødestress v1.0.5.0"/>
+    <text name="helpLine_cs_i1_about_text"      text="Skabt af TisonK. Tilføjer realistisk jordfugtighedssimulation, sæsonbetinget afgrødestress-akkumulation og irrigationsinfrastruktur-styring til Farming Simulator 25. Designet til at gøre afgrødestyring mere strategisk — hver mark, hver sæson, hver beslutning betyder noget."/>
+    <text name="helpLine_cs_i1_community_title" text="Samfund &amp; Support"/>
+    <text name="helpLine_cs_i1_community_text"  text="Find denne mod på Github og KingMods. For spørgsmål, fejlrapporter og opdateringer venligst besøg github-repositoriet."/>
+
+    <!-- Mod Information: Page 2 — Optional Integrations detail -->
+    <text name="helpLine_cs_i2_title"          text="Valgfri Integreringer"/>
+    <text name="helpLine_cs_i2_npc_title"      text="FS25_NPCFavor &amp; FS25_SoilFertilizer"/>
+    <text name="helpLine_cs_i2_npc_text"       text="Med FS25_NPCFavor installeret vises Alex Chen som en Agronom NPC på din gård. Fuldførende favors til Alex bygger dit forhold op og låser op tidlige tørkeadvarsler og specialist-vandingsråd. Med FS25_SoilFertilizer justeres hver marks jord-pH og organisk stof-indhold fordampning — marker med dårlig jordhelbredtørres hurtigere, hvilket gør godt jordhåndtering meningsfuld ved siden af vanding."/>
+    <text name="helpLine_cs_i2_vehicle_title"  text="CoursePlay, AutoDrive &amp; Precision Farming"/>
+    <text name="helpLine_cs_i2_vehicle_text"   text="Når CoursePlay er aktiv, vises antal autonome køretøjer, der arbejder på en stresset mark, i det marks varsel. Når AutoDrive detekteres, inkluderer kritiske tørkeadvarsler tilgængelige vandbestemmelsesantal og et forslag til at sætte en haulrute op. Med FS25_UsedPlus opkræves timebetaling for vandingsomkostninger og udstyrsslejtage akkumuleres realistisk. Hvis Precision Farming DLC er aktiv, vises jordfugtighed direkte i PF jordkort-overlay."/>
+
+    <!-- Tips & Tricks: Page 3 — Sprayers & Watering -->
+    <text name="helpLine_cs_t3_title"          text="Sprøjter &amp; Vanding"/>
+    <text name="helpLine_cs_t3_sprayer_title"  text="Brug Sprøjter som Vanding"/>
+    <text name="helpLine_cs_t3_sprayer_text"   text="Standard køretøj-baserede sprøjter kan bruges som et manuelt alternativ til permanente irrigationssystemer. Hvis du fylder en sprøjte med VAND, vil ethvert område du sprøjter modtage et øjeblikkeligt fugtighedsforhøjelse. Dette er brugbart for små marker eller som et midlertidigt middel, indtil du kan råde dig til en center pivot eller drypslange."/>
+
+    <!-- ========== OPTIONAL MOD INTEGRATIONS ========== -->
+    <!-- CoursePlay context appended to stress alerts -->
+    <text name="cs_cp_vehicle_on_field"  text="CoursePlay: %d køretøj arbejder på denne mark"/>
+    <text name="cs_cp_vehicles_on_field" text="CoursePlay: %d køretøjer arbejder på denne mark"/>
+    <!-- AutoDrive context appended to CRITICAL alerts -->
+    <text name="cs_ad_water_hint"    text="AutoDrive: %d vandbestemmelse(r) tilgængelig — overvej en håulrute"/>
+    <text name="cs_ad_destinations"  text="AutoDrive: %d bestemmelse(r) konfigureret"/>
+
+    </texts>
+</l10n>
